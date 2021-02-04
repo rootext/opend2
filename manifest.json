@@ -1,6 +1,6 @@
 {
-    "name": "d2save_ui",
-    "short_name": "d2save_ui",
+    "name": "Disciples II Quest Editor",
+    "short_name": "Disciples II Quest Editor",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
