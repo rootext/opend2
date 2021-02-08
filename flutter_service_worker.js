@@ -8,14 +8,14 @@ const RESOURCES = {
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
 "assets/images/pack.pack": "a28d2e7eff964c894f17a41253364ff7",
 "assets/images/terrain.png": "7e599fa346cf63e6c30c9b792b7f5f11",
-"assets/NOTICES": "a0f1031f583434759b62e93c38b91639",
+"assets/NOTICES": "aef3b5b765f588e480c7b0368b56a343",
 "assets/packages/flutter_dropzone_web/assets/flutter_dropzone.js": "5ee1f285611168cd6df377fd21151aae",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "a26e61027562f31b4aa17ee504b0a36c",
-"/": "a26e61027562f31b4aa17ee504b0a36c",
-"main.dart.js": "09403e944336c987973ad1ced6148a05",
+"index.html": "9b9acd4e3b6a38e68aeb1022a544bf02",
+"/": "9b9acd4e3b6a38e68aeb1022a544bf02",
+"main.dart.js": "50b89b2e561271c9b9934bf8136c8c88",
 "manifest.json": "d1c5685ed7aad7260201241e75e1b6e1",
 "version.json": "050be2c0268ba9ff7326b2512175bcb5"
 };
@@ -161,7 +161,7 @@ async function downloadOffline() {
     }
     currentContent[key] = true;
   }
-  for (var resourceKey in Object.keys(RESOURCES)) {
+  for (var resourceKey of Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
       resources.push(resourceKey);
     }
