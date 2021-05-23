@@ -3,20 +3,22 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c18bfcd2b0b848fa7724666576420d2a",
+  "assets/AssetManifest.json": "a0f8e490d87f85c6399e5e8d403d7f74",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
 "assets/fonts/MaterialIcons-Regular.otf": "1288c9e28052e028aba623321f7826ac",
-"assets/images/map.pack": "a28d2e7eff964c894f17a41253364ff7",
+"assets/images/map.index": "8b73777895079014023aa2366ff79977",
+"assets/images/map.pack": "30f5bc4c9b991098300deb3d8528f4fa",
 "assets/images/terrain.png": "7e599fa346cf63e6c30c9b792b7f5f11",
-"assets/images/units.pack": "3366b9728cac4176e41dbf8b35dc4369",
-"assets/NOTICES": "aef3b5b765f588e480c7b0368b56a343",
+"assets/images/units.index": "38bad7075af93bb1fe929e2b6318a94c",
+"assets/images/units.pack": "1913a1e15676409d58675e9ba7a9bf6f",
+"assets/NOTICES": "55d9aba67a84d8d5f5bf2f10782dbc89",
 "assets/packages/flutter_dropzone_web/assets/flutter_dropzone.js": "5ee1f285611168cd6df377fd21151aae",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "bd4790355856e766eb78b3827d0b54eb",
-"/": "bd4790355856e766eb78b3827d0b54eb",
-"main.dart.js": "106d72dae875162bc9f203872e49bfb9",
+"index.html": "175194e811f8022f4b5a58ad4fc80460",
+"/": "175194e811f8022f4b5a58ad4fc80460",
+"main.dart.js": "e25d5e22dcf78e7b1bb6d975ebbc758e",
 "manifest.json": "d1c5685ed7aad7260201241e75e1b6e1",
 "version.json": "050be2c0268ba9ff7326b2512175bcb5"
 };
